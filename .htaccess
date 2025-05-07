@@ -1,0 +1,11 @@
+RewriteEngine On            # Enable the rewrite engine
+RewriteBase /blog_project/ # Base directory (adjust if your project is in a subfolder)
+
+# If the requested path is NOT a real directory=
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# If the requested path is NOT a real file 
+RewriteCond %{REQUEST_FILENAME} !-f
+
+# Redirect all other requests to index.php with the URL as a parameter
+RewriteRule ^(.+)$ index.php?url=$1 [QSA,L]
