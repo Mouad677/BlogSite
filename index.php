@@ -1,7 +1,8 @@
 <?php
 // Initialize the application
+define('SITE_URL', 'http://'.$_SERVER['HTTP_HOST'].'/blog_project');
 require_once 'config/config.php';
-require_once 'app/helpers.php';
+require_once 'helpers.php';
 
 // Autoload Core Libraries
 spl_autoload_register(function($className) {

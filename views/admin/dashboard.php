@@ -1,4 +1,4 @@
-<?php require_once '../views/partials/header.php'; ?>
+<?php require_once 'views/partials/header.php'; ?>
 
 <h1 class="mb-4 animate__animated animate__fadeIn">Admin Dashboard</h1>
 
@@ -42,4 +42,4 @@
     </div>
 </div>
 
-<?php require_once '../views/partials/footer.php'; ?>
+<?php require_once 'views/partials/footer.php'; ?>

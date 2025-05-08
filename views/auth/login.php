@@ -1,4 +1,4 @@
-<?php require_once '../views/partials/header.php'; ?>
+<?php require_once 'views/partials/header.php'; ?>
 
 <div class="row justify-content-center">
     <div class="col-md-6 animate__animated animate__zoomIn">
@@ -28,4 +28,4 @@
     </div>
 </div>
 
-<?php require_once '../views/partials/footer.php'; ?>
+<?php require_once 'views/partials/footer.php'; ?>
